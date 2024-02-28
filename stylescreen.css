@@ -1,0 +1,218 @@
+@media screen and (min-width: 360px){
+    .foot{
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 390px){
+    #menubut{
+        margin-left: 48%;
+    }
+}
+@media screen and (min-width: 450px) {
+    .middle p{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .foot{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    #menubut{
+        margin-left: 60%;
+        margin-top: 0%;
+        padding: 3%;
+    }
+    .head #logo{
+        height: 100px;
+        width: 100px;
+        margin-left: 5%;
+    }
+    .middle{
+        margin-top: 5%;
+    }
+    .middle .canddle{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .middle p{
+        margin-top: 3%;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .middle p{
+        width: 35%;
+    }
+    #menubut{
+        display: none;
+    }
+    #menulist{
+        border-radius: 50px;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 65%;
+        margin-top: 3%;
+        transition: none;
+        position: absolute;
+    }
+    #menulist ul{
+        display: flex;
+    }
+    #menulist ul li{
+        padding: 20px;
+        background-color: unset;
+        border: none;
+        box-shadow: none;
+        width: fit-content;
+        margin: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #menulist ul li a{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .head #logo{
+        height: 130px;
+        width: 130px;
+        margin-left: 5%;
+    }
+   #menulist{
+    margin-left: 70%;
+    margin-top: 5%;
+   }
+   .middle p{
+    width: 30%;
+    margin-bottom: 5%;
+   }
+   .foot .links{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 10%;
+   }
+   .foot .imgs{
+    margin-right: 5%;
+    margin-top: -10%;
+   }
+}
+@media screen and (min-width: 1024px) {
+    .middle h1{
+        margin-bottom: 10%;
+    }
+    .middle .canddle{
+        width: 40%;
+    }
+    .middle p{
+        margin-top: -0.5%;
+    }
+    .product{
+        display: flex;
+        padding: 20px;
+    }
+    .foot .imgs{
+        margin-top: 10%;
+       }
+    .features{
+        display: flex;
+    }
+    .foot .imgs img:hover{
+        translate: 0px -15px;
+        transition: 1s;
+        box-shadow: 0px 0px 25px rgb(0, 0, 0);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .head #logo{
+        height: 180px;
+        width: 180px;
+    }
+    #menulist{
+        margin-left: 65%;
+    }
+    #menulist ul li a{
+        font-size: 35px;
+    }
+    .middle h1{
+        font-size: 4rem;
+    }
+    .product{
+        margin-bottom: 5%;
+    }
+    .middle p{
+        font-size: 25px;
+    }
+    .middle p:hover{
+        font-size: 30px;
+    }
+    .foot .links{
+        margin-top: 7%;
+        height: fit-content;
+        width: 50%;
+    }
+    .foot .links li a{
+        font-size: 35px;
+    }
+    .foot .imgs{
+        margin-top: 7%;
+    }
+    .foot .imgs img{
+        height: 55px;
+        width: 55px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .head #logo{
+        height:350px;
+        width: 350px;
+    }
+    #menulist{
+        margin-left: 70%;
+        padding: 30px;
+    }
+    #menulist ul li a{
+        font-size: 55px;
+    }
+    .middle h1{
+        font-size: 7rem;
+    }
+    .middle p{
+        font-size: 55px;
+    }
+    .middle p:hover{
+        font-size: 60px;
+    }
+    .foot .links {
+        padding: 40px;
+    }
+    .foot .links li a{
+        font-size: 75px;
+    }
+    .foot .imgs{
+        margin-top: 7%;
+    }
+    .foot .imgs img{
+        height: 85px;
+        width: 85px;
+        padding: 15px;
+    }
+    .foot{
+        padding-bottom: 10%;
+    }
+}
