@@ -1,6 +1,5 @@
 /* MENU N°1 */
 #menubut{
-    border: 1px blue solid;
     padding:5%;
     margin-left: 40%;
     position: absolute;
@@ -11,7 +10,6 @@
 #menulist{
     text-align: center;
     background-image: linear-gradient(to top right, yellow,red, violet,lightblue,lightgreen,white);
-    border: 1px rgb(255, 187, 0) solid;
     position: fixed;
     height: 100%;
     width: 230px;
